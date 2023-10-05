@@ -1,0 +1,315 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.top p{
+
+    font-size:14px;
+    color:black;
+    font-size: 14px;
+    background-color: #c2c2af;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+    text-align: center;
+    overflow-wrap: break-word;
+    display: block;
+
+}
+.top a{
+    text-decoration: none ;
+    color: black;
+}
+.top a:hover{
+    text-decoration: underline !important;
+}
+.mid p{   
+font-size: inherit;
+text-align: center;
+  padding: 0%;
+  background:#252525;
+  height:35px ;
+  margin:0%;
+  padding-top:5px;
+  font-size: 16px;
+}
+.mid a{
+    color:snow; 
+    text-decoration:none!important;
+text-align: center;
+}
+.mid a:hover{
+    text-decoration: underline !important;
+}
+.mid a::after{
+    content: " +";
+}
+.navitems{
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid transparent;
+    background-color: #333;
+    content: "";
+    transition: background-color .2s cubic-bezier(.645,.045,.355,1),border-bottom .3s cubic-bezier(.645,.045,.355,1);
+}
+
+
+.navitems ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+font-family: scc;
+font-weight: bold;
+}
+.navitems li{
+    color: black;
+    padding: .6rem  0.8vw;
+    /* padding-top: 20px; */
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.navitems a{
+    
+    text-decoration: none;
+    color: #333;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Suisse Medium,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    transition: outline-offset .2s cubic-bezier(.215,.61,.355,1),color .2s cubic-bezier(.215,.61,.355,1);
+}
+.right{
+    margin-left: 220px;
+    display: flex;
+ align-self: flex-end;
+}
+.aeson{
+    height: 90vh;
+    background-repeat:no-repeat;
+    background-position: center center;
+background-attachment: fixed;
+    background-image: url(/imgs/Aesop_Bar_Soaps_2023_Web_Homepage_2_Primary_Full_Bleed_Desktop_2880x1044px.avif);
+}
+.Icon_base__GKZ58{
+
+    -webkit-filter: invert(100%);
+    filter: invert(100);
+}
+.bg{
+    color:white;
+}
+.aeson p{
+    color: aliceblue;
+    text-align:start;
+}
+.paragraph{
+    width: 400px;
+color: #fffef2;
+
+}
+.aeson{
+    color: #fffef2;
+    font-family:Suisse Regular,sans-serif;
+}
+.button{
+    display: inline-block;
+    min-width: 210px;
+    height: 60px;
+    padding: 19px 23px;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Suisse,sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    text-align: left;
+    line-height: 1.4;
+    transition: all .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+background: transparent;
+color: #fffef2;
+outline: #fffef2 1px solid;
+}.button::after{
+    content: " ->";
+}
+.button:hover{
+    color: black;
+    background-color:#fffef2 ;
+    outline: none;
+    transition: 0.4s;
+}
+.saboon {
+    background-color:#f5f4e4;
+    font-family: Zapf Humanist,serif;
+    line-height: 1.33;
+}
+.saboon h2{
+
+}
+.saboon a{
+    color: #252525;
+    font-family:Suisse Regular;
+    text-decoration: none;
+}
+img{
+    display: grid ;
+grid-template-rows:1fr 1fr ;
+}
+.img-fluid1 img{
+height: 350px;
+width: 500px;
+}
+.img-fluid2 img{
+    height: 350px;
+    width: 500px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: space-between; /* Adjust this property to control the spacing between images */
+        align-items: center; /* Center vertically if needed */
+    }
+    
+    .box {
+        max-width: 100%; /* Ensure the images don't exceed their container */
+        height: auto; /* Maintain the aspect ratio of the images */
+    }
+    .image-container img{
+        height: 300px;
+        width: 800px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* burgir */
+    /* CSS for the hamburger icon */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+/* CSS for the mobile menu */
+.mobile-menu {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mobile-menu li {
+    padding: 10px 0;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .navitems {
+        display: none; /* Hide the desktop navigation menu */
+    }
+
+    .mobile-menu {
+        display: block; /* Show the mobile menu */
+    }
+}
+/* Media query for tablets and mobile devices */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+    }
+
+    .box {
+        max-width: 100%; /* Make images responsive by setting max-width to 100% */
+        height: auto; /* Maintain the aspect ratio of the images */
+        margin-bottom: 15px; /* Add spacing between stacked images */
+    }
+}
+
+/* Default styles for desktop/laptop screens */
+
+/* Example: Adjust the font size of headings for smaller screens */
+h2 {
+    font-size: 24px;
+}
+
+/* Example: Make the navigation menu responsive */
+.navitems {
+    display: flex;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .navitems{
+        display:none;
+    }
+    /* Example: Reduce the font size for smaller screens */
+    h2 {
+        font-size: 20px;
+    }
+
+    /* Example: Stack navigation items vertically on smaller screens */
+    .navitems {
+        flex-direction: column;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+    /* Example: Further reduce the font size for very small screens */
+    h2 {
+        font-size: 18px;
+    }
+
+    /* Example: Adjust padding and margins for smaller screens */
+    .navitems {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    /* Example: Make images responsive by setting max-width to 100% */
+    .box {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Add more responsive styles as needed */
+}
+

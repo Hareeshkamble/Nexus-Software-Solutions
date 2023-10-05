@@ -1,0 +1,2 @@
+window.location.href.indexOf("aesop.com/ca/en")>0&&window.location.href.indexOf("readMenu=open")>0&&document.querySelector("[href='/ca/en/r/the-fabulist']").parentNode.removeChild(document.querySelector("[href='/ca/en/r/the-fabulist']")),window.location.href.indexOf("aesop.com/ca/fr")>0&&window.location.href.indexOf("readMenu=open")>0&&document.querySelector("[href='/ca/fr/r/the-fabulist']").parentNode.removeChild(document.querySelector("[href='/ca/fr/r/the-fabulist']")),/^\/(ca|au|us|uk)/.test(window.location.pathname);
+//# sourceMappingURL=override_footer.js.map
